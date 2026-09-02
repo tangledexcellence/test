@@ -1,13 +1,14 @@
 package ver2;
 
 public class Account {
-	private double balance;
+	//New Comment for balance
+	private double balance; 
 	private String name;
-	public Account(double balance) {
+	public Account(double balance) { 
 		this.balance = balance;
 	}
 
-	public Account(String name, double balance) {
+	public Account(String name, double balance) { 
 		this.name = name;
 		this.balance = balance;
 	}
